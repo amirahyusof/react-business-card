@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-funfact/static/css/main.9bc443c7.css",
+    "main.js": "/react-funfact/static/js/main.80edbb9f.js",
+    "static/media/myself.png": "/react-funfact/static/media/myself.d7b5126f412c1c22ef79.png",
+    "index.html": "/react-funfact/index.html",
+    "main.9bc443c7.css.map": "/react-funfact/static/css/main.9bc443c7.css.map",
+    "main.80edbb9f.js.map": "/react-funfact/static/js/main.80edbb9f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bc443c7.css",
+    "static/js/main.80edbb9f.js"
+  ]
+}
