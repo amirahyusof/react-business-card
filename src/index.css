@@ -1,0 +1,121 @@
+* {
+   margin: auto;
+}
+
+body {
+    width: 550px;
+    height: 868px;
+    display: flex;
+    flex-direction: column;
+    background-color: #23252C;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.image {
+    width: 317px;
+    height: 317px;
+    background-image: url('../public/myself.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.content {
+    color: wheat;
+    width: 317px;
+    height: 540px;
+    background: #1A1B21;
+    line-height: 2rem;
+}
+
+.name {
+    padding: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title {
+    margin: -10px 0 20px 0;
+    color: #F3BF99;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12.8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.email-button {
+    display: flex;
+    width: 247px;
+    padding: 9px 13px 9px 11px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid #D1D5DB;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    color: var(--gray-700, #374151);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 114.286% */
+}
+
+.email-button > .fa-envelope {
+    margin-right:-35%;
+    font-size: 16px;
+
+}
+
+.email-button:hover {
+    background-color: rgb(0, 221, 255);
+}
+
+.content-items {
+   margin: 0 15px 0 15px;
+   padding: 10px;
+}
+
+.content-items > h2 {
+    margin: 20px 0 5px 0;
+    color: #F5F5F5;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80%; /* 24px */
+    justify-content: right;
+}
+
+.footer { 
+    width: 317px;
+    height: 64px;
+    border-radius: 0px 0px 10px 10px;
+    background: #161619; 
+    
+}
+
+.footer-items {
+    color: #918E9B;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-left: -2rem;
+   
+}
+
+.footer-items > li {
+    margin: 10px 10px;
+
+}
